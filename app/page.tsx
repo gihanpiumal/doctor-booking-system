@@ -1,7 +1,11 @@
+import { Button } from "@/components/ui/button";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className=" underline">Hello</div>
+    <div>
+      <h1 className="text-white text-3xl underline">HEllo</h1>
+      <Button>Click me </Button>
+    </div>
   );
 }
